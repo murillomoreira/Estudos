@@ -1,0 +1,120 @@
+/* ****** Transição ****** */
+#box-transicao{
+	width: 300px;
+	height: 300px;
+	background:orange;
+}
+#box-transicao:hover{
+	width: 400px;
+	background:black;
+	transition: all 2s;
+}
+
+/* ******* Animações ******* */
+@keyframes animacao-box{
+	
+	from {
+		background: red;
+		border-radius: 0px;
+		top:0; 
+		left:0;}
+	to {
+		background:yellow; 
+		border-radius: 300px; 
+		top: 200px; 
+		left:200px;}
+}
+
+#box-animacao{
+width: 300px;
+height: 300px;
+background: red;
+position: relative;
+/*animation-name: animacao-box;
+animation-duration: 5s;
+animation-delay: 3s;
+animation-iteration-count: 2;
+animation-direction: alternate;*/
+animation: animacao-box 5s 3s 2 alternate;
+}*/
+
+
+
+
+/* ------------ Sombras -----------*/
+
+#box {
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding: 8px;
+	background: #009670;
+	/*box-shadow: 10px 10px 2px 20px black;*/
+	box-shadow: 10px 10px 2px black, -10px -10px 2px red;
+}
+
+#box h1{
+	color: white;
+	font-size: 60px;
+	/*text-shadow: 20px 20px 10px black;*/
+	/*text-shadow: 20px 20px rgba(0,0,0,0.5;*/
+	text-shadow: 5px 5px black;
+}
+
+
+
+/* ------ Transparencia ----*/
+#box{
+width: 300px;
+height: 300px;
+background: url(../img/camera.png);
+}
+
+#box h1{
+background: rgba(255,255,255,0.5);
+border-bottom: 2px solid #fff;
+}
+
+
+/* ------ degrade ---*/
+#box{
+width: 300px;
+height: 300px;
+background: linear-gradient(80deg,red,yellow);
+background: radial-gradient(red,yellow);
+}
+
+/*Sombras em textos:
+
+http://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+
+Sombras em caixas:
+
+http://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+
+
+/* ------ Bordas ----- */ 
+
+/*box-sizing: border-box;
+padding: 20px;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+border-radius: 20px ;
+padding: 20px;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;*/
+
+
+
+/*Normalize CSS
+
+https://necolas.github.io/normalize.css/
+
+Propriedade box-sizing:
+
+http://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+
+Cantos arredondados:
+
+http://www.w3schools.com/css/css3_borders.asp*/

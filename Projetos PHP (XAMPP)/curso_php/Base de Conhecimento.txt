@@ -1,0 +1,68 @@
+Tags PHP 
+
+Tag padrão = <?php meu codigo ?>
+
+Tag de impressão = <?= meu codigo ?> 
+
+Tag curta = <? meu codigo ?>
+
+Asp tag <% meu codigo %>
+
+========= Variáveis ==========
+
+Tipo : 
+ - int , float , string , boolean , array
+
+Regra de delcaração 
+== Iniciar com $ 
+Nao iniciar com espaços
+Não é permitido caracteres especiais (exceto '_') 
+
+Não requer ou suporta a definição explicita de tipo 
+
+Case sensitive 
+$nome eh diferente de $Nome ou $NOME
+
+
+=======Operadores de Comparação ==========
+
+Operador	Nome		Função 
+
+==		Igual		Valores são iguar?
+
+===		Identico	Iguais e mesmo tipo? 
+
+!=		Diferente	Valores Diferentes? 
+
+<>		Diferente	Valores Diferentes?
+
+!==		Não Identico	diferentes e/ou tipo diferentes
+
+<		Menor que	menor que valor a direita?
+
+>		Maior que	Maior que valor a direita?
+
+<=		menor/igual	Menor ou igual o valor a direita
+
+>= 		Maior/Igual	Maior ou igual o valor a direita
+
+
+========== Operadores Lógico ===============
+
+Operador	Nome		Função	
+AND		E		Verdadeiro se todas as expressões forem verdadeiras
+&&		E		Verdadeiro se todas as expressões forem verdadeiras
+
+OR		Ou		Verdadeiro se pelo menos 1 expressão for verdadeira
+||		Ou		Verdadeiro se pelo menos 1 expressão for verdadeira
+
+XOR		Xor		Verdadeira apenas se uma expressão for verdadeira
+!		Negação		Inverte o Resultado da expressão
+
+======= Operadores Aritimeticos ==========
+Operador		Nome		Função
++ 			Adição			Soma valores
+-			Subtração		Diferença entre valores
+*			Multiplicação		Produto dos Valores
+/			Divisão			Quociente dos valores
+%			Modulo			Resto existente em uma divisão

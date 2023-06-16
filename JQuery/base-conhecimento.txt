@@ -1,0 +1,18 @@
+=================== Eventos - Mouse ==============
+
+.click - acionado no clique do mouse. 
+.dblclik - acionado no clique duplo do mouse 
+.mousedown - acionado no clique do mousa (soltando ou nao o botão) 
+.mouseover - acionado quando o cursor do mouse sobrepoe o elemento
+.mouseout = acionado quando o cursor do mouse sai da area do elemento
+
+=================== Eventos - Teclado ==============
+.keydown - acionado no momento que a tecla é pressionada
+.keypress - acionado no momento em que uma tecla é pressionada (soltando ou nao), porem nao captura todas as teclas (shift, alt, ctrl)
+.Keyup - acionada no momento em que a tecla é liberada.
+
+
+=================== Eventos - Formulario ==============
+.focus - acionado qunado o elemento recebe foco do cursor
+.blur -	acionado qunado o elemento perde o focu do cursor 
+.change - acionado quando o estado do elemento é modificado

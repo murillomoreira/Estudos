@@ -1,0 +1,66 @@
+Operados de Comparação em JavaScript
+
+Operador	Nome		Função 
+
+==		Igual		Valores são iguar?
+
+===		Identico	Iguais e mesmo tipo? 
+
+!=		Diferente	Valores Diferentes? 
+
+<>		Diferente	Valores Diferentes?
+
+!==		Não Identico	diferentes e/ou tipo diferentes
+
+<		Menor que	menor que valor a direita?
+
+>		Maior que	Maior que valor a direita?
+
+<=		menor/igual	Menor ou igual o valor a direita
+
+>= 		Maior/Igual	Maior ou igual o valor a direita
+
+Operadores Logicos 
+
+Operador	Nome		Função 
+
+&&		e		se todas as expressões forem verdadeiras
+||		Ou		Se pelo menos 1 for verdadeira
+|		Negação		Inverte o resultado da expressão
+
+
+
+Operadores Aritmeticos 
+
+Operador	Nome		Função 
+
++		adição		Soma Valores
+-		Subtração	diferença entre valores
+*		Multiplicação	Produto dos valores
+/		Divisão		Quociente dos valores
+%		Módulo		Resto existente em uma divisão
+++		Icremento	Pré/pós incremento
+--		Decremento	pré/pós decremento
+
+
+===================== Eventos - Mouse ====================
+onclick = acionado no clique do mouse 
+ondbclick = acionado no clique duplo do mouse 
+onmousedown = acionado no clique do mouse (soltando ou nao o botão) 
+onmouseover = acionado quando o cursor do mouse sobrepoe o elemento
+onmouseout = acionado qunado o cursos do mouse sai da area do elemento
+
+
+===================== Eventos - Teclado ====================
+onkeydown - acionado no momento que uma tecla é pressionada
+onkeypress - acionado no momento que uma tecla é pressionada (nao captura todas as teclas. ex> alt , ctrl , esc , shift)
+onkeyup - acionada no momento em que a tecla liberada.
+
+===================== Eventos - Janela ==================== 
+onload -  acionado qunado a pagina finaliza o carregamento
+onresize - scionado qunado a pagina ou frme é redimensionado
+
+===================== Eventos - Formulario ==================== 
+onfocus = acionado quando o elemento rece o foco do cursor
+onblur = acionado qunado o elemento perde o foco do cursor
+onchange = acionado quando o estado do elemento é modificado.
